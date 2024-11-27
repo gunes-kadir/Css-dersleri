@@ -1,0 +1,78 @@
+/* Group Selectors
+
+        1 : (*)  => tüm etiketler
+        2 : (p)  => tüm p etiketleri
+        3 : (div p)  => div içinde ki tüm p etiketleri
+        4 : (div,p)  => tüm div ve p etiketleri
+        5 : (div>p)  => üst etiketi div olan tüm p
+        6 : (p ~ div)  => p ile aynı seviyede tüm div
+        7 : (p + div)  => p etiketinden sonra gelen tüm div
+
+
+TÜM ETİKETLERİ KAPSAR
+* {
+    border: 1px solid blue;
+}
+
+
+
+TÜM P ETİKETLERİ KAPSAR
+p { 
+    border: 1px solid blue;
+}
+
+
+
+
+DİV ALTINDA Kİ P ETİKETLERİ KAPSAR
+div p{ 
+    border: 1px solid blue;
+}
+
+
+
+CONTAİNER ALTINDA Kİ DİV ETİKETLERİNİ KAPSAR
+.container div{
+    border: 1px solid red;
+}
+
+
+CONTAİNER ALTINDA Kİ DİVİN İÇİNDE CLASSI BOX OLANLARI KAPSAR
+.container div.box{
+    border: 1px solid red;
+}
+
+
+
+SAYFADA Kİ TÜM DİV VE P ETİKETLERİNİ KAPSAR
+div,p{
+    border: 1px solid red;
+}
+
+
+
+
+
+DİV CLASI BOX OLAN VE P ETİKETLERİNİ KAPSAR
+div.box,p{
+    border: 1px solid red;
+}
+
+
+
+ÜST ETİKETİ DİV OLAN TÜM P ETİKETLERİNİ KAPSAR
+div>p{
+    border: 1px solid red;
+}
+
+
+
+p~div{
+    border: 1px solid red;
+}
+
+*/
+
+p+div{
+    border: 1px solid red;
+}
