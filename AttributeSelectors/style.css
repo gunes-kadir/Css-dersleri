@@ -1,0 +1,38 @@
+p[title]{
+    border: 1px solid gray;
+
+    padding: 5px;
+}
+p[title="third paragraph"]{
+    background-color: gold;
+}
+
+p[title~="forth"]{ /*~ işareti olduğu için sadece forth yazmamız yeterli oldu */
+    background-color: red;
+}
+
+a[href^="https"] { /*^ işareti koyulduğu zaman https ile başlayan cümleye işlem yapıyor */
+    color: red;
+}
+
+a[href$="com"]{  /*$ işareti koyulduğu zaman com ile biten cümleye işlem yapıyor */
+    color: aqua;
+}
+
+a[href="https://www.expamle.net"] [target="_blank"]{
+    color: yellow;
+}
+
+input[type="text"]{
+    display: block;
+    width: 150px;
+    background-color: aquamarine;
+}
+
+input[type="button"]{
+    background-color: aliceblue;
+    color: rgb(199, 125, 13);
+    padding: 8px 16px;
+
+
+}
