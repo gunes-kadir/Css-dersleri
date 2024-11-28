@@ -1,0 +1,34 @@
+#Baslik{
+    background-color:deepskyblue;
+    color: white;
+    text-align: left;
+
+}
+
+#Baslik2{
+    background-color:rgb(13, 230, 49);
+    color: white;
+    text-align: left;
+
+}
+
+tr:nth-child(even){
+    background-color: rgb(158, 157, 157);
+}
+
+table{
+    border-radius: 5px;
+    
+}
+
+table td, table th{
+    padding: 6px;
+  
+}
+
+
+
+table tr:hover{
+background-color: gray;
+}
+
