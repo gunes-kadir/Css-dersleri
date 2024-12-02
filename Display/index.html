@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Display</title>
+    <style>
+        div {
+            height: 200px;
+            background-color: red;
+            margin: 5px;
+        }
+
+        #first{
+            width: 500px;/*block etikette width çalışır */
+        }
+
+        span{
+            background-color: blue;
+            width: 200px;
+            height: 100px;
+            /*inline etikette width çalışmaz - display block yapınca çalışıyor*/
+            display: inline-block;
+            
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div id="first">first</div>
+    <div id="second">second</div>
+
+    <span>deneme 1</span>
+    <span>deneme 2</span>
+    <span>deneme 3</span>
+    <br>
+    <a href="">Home</a>
+    <a href="">About</a>
+    <a href="">Contact</a>
+
+
+</body>
+
+</html>
