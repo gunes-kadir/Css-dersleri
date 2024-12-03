@@ -1,20 +1,34 @@
 #container{
     width: 1140px;
-    background-color:blueviolet;
+
 }
 
 #blog-post-container{
     width: 75%;
-    background-color: aquamarine;
+ ;
     float: left;
 }
 
 #other-posts{
     width: 25%;
-    background-color: bisque;
+  
     float: left;
 }
 
 #author-box{
-    border: 1px solid red;
+   
+}
+
+.tags{
+    margin: 0;
+    padding: 0;
+}
+
+.tags li{
+    list-style: none;
+    display: inline-block;
+}
+
+.tags li a{
+    text-decoration: none;
 }
