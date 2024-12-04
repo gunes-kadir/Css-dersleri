@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Margin</title>
+    <style>
+
+        body{
+            margin: 0;
+        }
+
+        .box{
+            width: 100px;
+            height: 100px;
+            margin-right: 10px;
+        }
+        
+        #first{
+            background: red;
+            margin-top: 50px;
+            /* margin: 10px 10px 50px 100px;üstten alttan sağdan ve soldan margin değerleri*/
+        }
+
+        #second{
+            background: blue;
+            margin-top: 100px;
+            margin: auto;
+           /* margin-top: 10px;
+            margin-bottom: 10px;
+            margin-left: 10px;
+            margin-right: 10px;
+            tek tek yazılan margin değerleri*/
+        }
+
+        #third{
+            background: green;
+            margin-top: 150px;
+           /* margin: 50px 100px; üstten üstten alttan 50px- sağdan soldan 100 px margin değerleri*/
+        }
+
+        span{
+            background: red;
+            margin: 50px;
+            display: inline-block;
+
+        }
+
+
+    </style>
+</head>
+<body>
+
+    <div class="box" id="first">box1</div>
+    <div class="box" id="second">box2</div>
+    <div class="box" id="third">box3</div>
+
+
+    <span>text1</span>
+    <span>text2</span>
+    <span>text3</span>
+    
+</body>
+</html>
