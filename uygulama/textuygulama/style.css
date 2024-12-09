@@ -1,0 +1,114 @@
+body{
+    font-family: "Montserrat Underline", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 14px;
+    color: #333;
+    line-height: 135%;
+    background: #f1f1f1;
+
+ 
+
+}
+
+.box{
+    margin-bottom: 15px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    box-shadow: 0 0 0 1px rgba (0,0,0,.6);
+}
+
+h2{
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+#container{
+    width: 1140px;
+
+}
+
+
+.blog-text{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    color: #aaa;
+    line-height: 22px;
+    text-align: justify;
+    margin-right: 10px;
+}
+
+#blog-post-container{
+    width: 75%;   
+    float: left;
+}
+
+#other-posts{
+    width: 25%;
+    position: fixed;
+  top: 0;
+  right: 0;
+    float: left;
+    background-color:bisque;
+    margin-right: 20px;
+    padding-left: 20px;
+}
+
+#author-box{
+   
+}
+
+#share{
+    margin-top: 20px;
+    width: 25%;
+    position: fixed;
+  top: 150px;
+  right: 0;
+    float: left;
+    background-color:bisque;
+    margin-right: 20px;
+    padding-left: 20px;
+
+}
+
+#share a{
+    color: gray;
+    text-decoration: none;
+    margin-right: 12px;
+    opacity: 0.6;
+    
+}
+
+#share a:hover{
+    opacity: 1;
+}
+
+.date{
+    position: absolute;
+    right: 50px;
+    top: 5px;
+    color: #aaa;
+    font-size: 12px;
+}
+
+.tags{
+    margin: 0;
+    padding: 0;
+}
+
+.tags li{
+    list-style: none;
+    display: inline-block;
+}
+
+.tags li a{
+    text-decoration: none;
+}
+
+.blog-post {
+    position: relative;
+    background-color: aliceblue;
+    
+}
+
